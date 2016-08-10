@@ -1,0 +1,21 @@
+{
+    "name": "mehrdadakbari/yii2-time-of-prayer",
+    "description": "Show time of prayer for cities of iran country.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","prayer","time","اوقات شرعی"," وقت نماز"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mehrdad Akbari",
+            "email": "akbarimehrdad87@yahoo.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mehrdadakbari\\prayerTime\\": ""
+        }
+    }
+}
