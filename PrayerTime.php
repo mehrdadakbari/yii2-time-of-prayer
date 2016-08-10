@@ -5,7 +5,7 @@ namespace mehrdadakbari\prayerTime;
 /**
  * This is just an example.
  */
-class AutoloadExample extends \yii\base\Widget
+class PrayerTime extends \yii\base\Widget
 {
     public function run()
     {
