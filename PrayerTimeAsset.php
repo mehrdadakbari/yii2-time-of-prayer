@@ -24,6 +24,9 @@ class PrayerTimeAsset extends AssetBundle
     public $js = [
         '/js/',
     ];
+    public $data = [
+      '/data/'
+    ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',

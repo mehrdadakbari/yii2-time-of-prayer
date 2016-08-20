@@ -28,4 +28,30 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \mehrdadakbari\prayerTime\AutoloadExample::widget(); ?>```
+<?= \mehrdadakbari\prayerTime\PrayerTime::widget(); ?>```
+
+and insert in to contoller
+
+```php
+public function actions()
+    {
+        return [
+            .
+            .
+            .
+            'prayer'=>[
+                'class' => 'mehrdadakbari\prayerTime\PrayerAction'
+            ]
+        ];
+    }```
+
+sample
+------
+
+```php
+<?= prayerTime\PrayerTime::widget([
+        'method'=>'Tehran',
+        'timeFormat'=>'24h',
+        'city'=>'دهلران',
+        'province'=>'ايلام'
+    ]); ?>```

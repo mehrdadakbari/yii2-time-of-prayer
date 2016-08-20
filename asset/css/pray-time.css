@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Traffic;
+}
+.prayer-table{
+    font-family: Traffic;
+    width: 170px;
+    height: 285px;
+    background-image: url("../data/mehrab.jpg");
+    border-radius: 5px;
+}
+.prayer-row{
+    padding-top: 20px;
+}
+.dropdown{
+    padding-left: 40px;
+    padding-top: 57px;
+}
+.dropdown > select{
+    width: 88px;
+    background: transparent none repeat scroll 0 0;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.time{
+    padding-left: 30px;
+}
+.azan-Sunrise, .azan-morning, .azan-Dhuhr, .azan-Asr, .azan-sunset, .azan-Maghrib, .azan-Isha{
+    font-family: Traffic;
+    float: right;
+    padding-right: 30px;
+}
