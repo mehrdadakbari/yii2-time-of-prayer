@@ -28,11 +28,10 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \mehrdadakbari\prayerTime\PrayerTime::widget(); ?>```
+<?= \mehrdadakbari\prayerTime\PrayerTime::widget(); ?>
 
-and insert in to contoller
+and insert into the controller
 
-```php
 public function actions()
     {
         return [
@@ -43,8 +42,8 @@ public function actions()
                 'class' => 'mehrdadakbari\prayerTime\PrayerAction'
             ]
         ];
-    }```
-
+    }
+```
 sample
 ------
 
@@ -54,4 +53,5 @@ sample
         'timeFormat'=>'24h',
         'city'=>'دهلران',
         'province'=>'ايلام'
-    ]); ?>```
+    ]); ?>
+```
